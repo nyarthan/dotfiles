@@ -13,6 +13,7 @@
     ~/.config/bspwm/bspwmrc: bspwm/bspwmrc
     ~/.config/polybar/launch.sh: polybar/launch.sh
     ~/.config/polybar/config: polybar/config
+    ~/.config/Code - OSS/User/settings.json: vscode/settings.json
 
 - create:
     - ~/testing/test/test
