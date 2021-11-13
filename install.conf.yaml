@@ -10,6 +10,7 @@
     ~/.xinitrc: xorg/xinitrc
     ~/.config/picom/picom.conf: picom/picom.conf
     ~/.config/sxhkd/sxhkdrc: sxhkd/sxhkdrc
+    ~/.config/bspwm/bspwmrc: bspwm/bspwmrc
 
 - create:
     - ~/testing/test/test
