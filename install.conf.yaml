@@ -7,6 +7,7 @@
 - link:
     ~/.zshrc: zsh/zshrc
     ~/.gitconfig: git/gitconfig
+    ~/.xinitrc: xorg/xinitrc
 
 - create:
     - ~/testing/test/test
