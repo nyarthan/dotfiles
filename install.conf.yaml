@@ -1,0 +1,13 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+# - link:
+#  ~/Dotfiles: ''
+
+- create:
+    - ~/testing/test/test
+
+# - shell:
