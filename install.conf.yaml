@@ -8,6 +8,7 @@
     ~/.zshrc: zsh/zshrc
     ~/.gitconfig: git/gitconfig
     ~/.xinitrc: xorg/xinitrc
+    ~/.config/picom/picom.conf: picom/picom.conf
 
 - create:
     - ~/testing/test/test
