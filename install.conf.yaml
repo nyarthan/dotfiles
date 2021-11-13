@@ -4,8 +4,8 @@
 
 - clean: ['~']
 
-# - link:
-#  ~/Dotfiles: ''
+- link:
+    ~/.zshrc: zsh/zshrc
 
 - create:
     - ~/testing/test/test
