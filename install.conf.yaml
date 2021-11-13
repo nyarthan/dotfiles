@@ -9,6 +9,7 @@
     ~/.gitconfig: git/gitconfig
     ~/.xinitrc: xorg/xinitrc
     ~/.config/picom/picom.conf: picom/picom.conf
+    ~/.config/sxhkd/sxhkdrc: sxhkd/sxhkdrc
 
 - create:
     - ~/testing/test/test
