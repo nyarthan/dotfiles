@@ -11,6 +11,8 @@
     ~/.config/picom/picom.conf: picom/picom.conf
     ~/.config/sxhkd/sxhkdrc: sxhkd/sxhkdrc
     ~/.config/bspwm/bspwmrc: bspwm/bspwmrc
+    ~/.config/polybar/launch.sh: polybar/launch.sh
+    ~/.config/polybar/config: polybar/config
 
 - create:
     - ~/testing/test/test
