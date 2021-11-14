@@ -1,32 +1,30 @@
-#
-# wm independent hotkeys
-#
-
-# terminal emulator
+# programs #
+# open alacritty
 super + Return
 	alacritty
 
-# program launcher
+# open dmenu
 super + @space
 	dmenu_run
 
-# make sxhkd reload its configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd
-
+# media #
 # volume up
 XF86AudioRaiseVolume
-	sh $HOME/scripts/media/increase_volume.sh
+	sh $HOME/Scripts/media/increase_volume.sh
 
 # volume down
 XF86AudioLowerVolume
-	sh $HOME/scripts/media/decrease_colume.sh
+	sh $HOME/Scripts/media/decrease_colume.sh
 
-#
-# bspwm hotkeys
-#
 
-# quit/restart bspwm
+# utils #
+# reload sxhkd configuration
+super + Escape
+	pkill -USR1 -x sxhkd
+
+
+# bspwm #
+# {quit, restart} bspwm
 super + alt + {q,r}
 	bspc {quit,wm -r}
 
@@ -34,7 +32,7 @@ super + alt + {q,r}
 super + {_,shift + }w
 	bspc node -{c,k}
 
-# alternate between the tiled and monocle layout
+# switch tiled / monocle layout
 super + m
 	bspc desktop -l next
 

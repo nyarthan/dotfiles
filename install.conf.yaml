@@ -33,4 +33,6 @@
     # nvim
     ~/.config/nvim/init.vim: nvim/init.vim
     ~/.config/nvim/plugins.vim: nvim/plugins.vim
-# - shell:
+
+    # alacritty
+    ~/.config/alacritty/alacritty.yml: alacritty/alacritty.yml
