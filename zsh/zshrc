@@ -12,6 +12,7 @@ alias 'cd..'='cd ..'
 alias mkdir='mkdir -p'
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
+alias grub-mkconfig='grub-make-config'
 
 # customize prompt(s)
 PROMPT='%1~ %# '
@@ -23,6 +24,11 @@ RPROMPT='%*'
 function mkcd() {
 	command mkdir -p $@ &&
 	cd $_
+}
+
+function grub-make-config() {
+	mount /dev/nvme0n1p1 /mnt-win &&
+	command grub-mkconfig -o /boot/grub/grub.cfg
 }
 
 # plugins
