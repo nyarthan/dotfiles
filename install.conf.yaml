@@ -5,17 +5,32 @@
 - clean: ['~']
 
 - link:
+    # zsh
     ~/.zshrc: zsh/zshrc
+    
+    # git
     ~/.gitconfig: git/gitconfig
+    
+    # xorg
     ~/.xinitrc: xorg/xinitrc
+    
+    # picom
     ~/.config/picom/picom.conf: picom/picom.conf
+    
+    # sxhkd
     ~/.config/sxhkd/sxhkdrc: sxhkd/sxhkdrc
+    
+    # bspwm
     ~/.config/bspwm/bspwmrc: bspwm/bspwmrc
+    
+    # polybar
     ~/.config/polybar/launch.sh: polybar/launch.sh
     ~/.config/polybar/config: polybar/config
+    
+    # vscode
     ~/.config/Code - OSS/User/settings.json: vscode/settings.json
-
-- create:
-    - ~/testing/test/test
-
+    
+    # nvim
+    ~/.config/nvim/init.vim: nvim/init.vim
+    ~/.config/nvim/plugins.vim: nvim/plugins.vim
 # - shell:
