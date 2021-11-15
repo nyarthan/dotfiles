@@ -30,7 +30,8 @@
     
     # vscode
     ~/.config/Code - OSS/User/settings.json: vscode/settings.json
-    
+    ~/.config/Code - OSS/User/keybindings.json: vscode/keybindings.json
+
     # nvim
     ~/.config/nvim/init.vim: nvim/init.vim
     ~/.config/nvim/plugins.vim: nvim/plugins.vim
