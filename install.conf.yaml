@@ -13,7 +13,8 @@
     
     # xorg
     ~/.xinitrc: xorg/xinitrc
-    
+    ~/.Xresources: xorg/Xresources
+
     # picom
     ~/.config/picom/picom.conf: picom/picom.conf
     
