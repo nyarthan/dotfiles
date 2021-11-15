@@ -13,6 +13,7 @@ alias mkdir='mkdir -p'
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 alias grub-mkconfig='grub-make-config'
+alias btctl='bluetoothctl'
 
 # customize prompt(s)
 PROMPT='%1~ %# '
