@@ -173,14 +173,14 @@
   "workbench.editor.untitled.hint": "hidden",
   "redhat.telemetry.enabled": false,
   "editor.inlineSuggest.enabled": true,
-  "workbench.activityBar.visible": false,
   "rust-analyzer.callInfo.full": false,
   "rust-analyzer.inlayHints.enable": false,
   "rust-analyzer.inlayHints.maxLength": 0,
   "rust-analyzer.inlayHints.smallerHints": false,
   "rust-analyzer.inlayHints.typeHints": false,
   "rust-analyzer.inlayHints.chainingHints": false,
-  "workbench.statusBar.visible": false,
   "window.zoomLevel": 1,
-  "svelte.enable-ts-plugin": true
+  "svelte.enable-ts-plugin": true,
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false
 }
