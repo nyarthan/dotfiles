@@ -1,3 +1,6 @@
+[url "git@github.com-private:"]
+	insteadOf = https://github.com/
+
 [user]
 	name = Jannis Morgenstern
 	email = 49486580+Jannis-Morgenstern@users.noreply.github.com
