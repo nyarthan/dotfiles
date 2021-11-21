@@ -2,7 +2,8 @@
 
 # change zsh options
 
-# set aliases
+# aliases
+## general
 alias cls='clear'
 alias ls='ls -lh --color=auto'
 alias lsa='ls -lAFh --color=auto'
@@ -15,6 +16,14 @@ alias pbpaste='xsel --clipboard --output'
 alias grub-mkconfig='grub-make-config'
 alias btctl='bluetoothctl'
 alias screenshot='$HOME/Scripts/media/screenshot.sh'
+
+## git
+alias gic='git commit -m'
+alias gica='git commit -am'
+alias gip='git push'
+alias gia='git add .'
+alias gid='git diff'
+alias gis='git status'
 
 # customize prompt(s)
 PROMPT='%1~ %# '
