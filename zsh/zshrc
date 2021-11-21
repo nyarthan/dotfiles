@@ -14,6 +14,7 @@ alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 alias grub-mkconfig='grub-make-config'
 alias btctl='bluetoothctl'
+alias screenshot='$HOME/Scripts/media/screenshot.sh'
 
 # customize prompt(s)
 PROMPT='%1~ %# '
@@ -23,14 +24,23 @@ RPROMPT='%*'
 
 # functions
 function mkcd() {
-	command mkdir -p $@ &&
-	cd $_
+    command mkdir -p "$@" &&
+    cd "$_"
 }
 
 function grub-make-config() {
-	mkdir -p /mnt-win &&
-	mount /dev/nvme0n1p1 /mnt-win &&
-	command grub-mkconfig -o /boot/grub/grub.cfg
+    mkdir -p /mnt-win &&
+    mount /dev/nvme0n1p1 /mnt-win &&
+    command grub-mkconfig -o /boot/grub/grub.cfg
+}
+
+function keycode() {
+    xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
+}
+
+function screenshots() {
+	cd "$HOME/Pictures/screenshots" &&
+	lsa
 }
 
 # plugins
