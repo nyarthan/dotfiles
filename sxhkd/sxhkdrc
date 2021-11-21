@@ -16,6 +16,9 @@ XF86AudioRaiseVolume
 XF86AudioLowerVolume
 	sh $HOME/Scripts/media/decrease_colume.sh
 
+# screenshot root monitor
+Print
+	sh $HOME/Scripts/media/screenshot.sh
 
 # utils #
 # reload sxhkd configuration

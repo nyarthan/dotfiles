@@ -66,7 +66,8 @@
     "*.env.production": "env",
     "*.env.development.local": "env",
     "*.env.production.local": "env",
-    ".browserslistrc": "ini"
+    ".browserslistrc": "ini",
+    "*.vim": "shellscript"
   },
   "files.exclude": {
     "**/.classpath": true,
@@ -150,7 +151,7 @@
   "window.menuBarVisibility": "toggle",
 
   //* workbench *//
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.settings.editor": "json",
@@ -181,6 +182,6 @@
   "rust-analyzer.inlayHints.chainingHints": false,
   "window.zoomLevel": 1,
   "svelte.enable-ts-plugin": true,
-  "workbench.statusBar.visible": false,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false
 }
