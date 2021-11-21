@@ -29,3 +29,7 @@ ln -sf $HOME/Dotfiles/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 
 # nvim
 ln -sf $HOME/Dotfiles/nvim/* $HOME/.config/nvim
+
+# spicetify
+ln -sf $HOME/Dotfiles/spicetify/config-xpui.ini $HOME/.config/spicetify/config-xpui.ini
+ln -sf $HOME/Dotfiles/spicetify/Themes/* $HOME/.config/spicetify/Themes
