@@ -5,3 +5,4 @@
 # - clean: ['~']
 - link:
     ~/.config/hypr: hypr
+    ~/.config/paru: paru
