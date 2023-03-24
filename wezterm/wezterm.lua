@@ -14,7 +14,7 @@ return {
 
         color_scheme = "tokyonight",
 
-        scrollbar_lines = 10000,
+        scrollback_lines = 10000,
 
         window_padding = {
                 left = 0,
